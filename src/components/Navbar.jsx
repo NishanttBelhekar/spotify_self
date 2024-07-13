@@ -6,7 +6,6 @@ import { useStateProvider } from '../utils/StateProvider';
 
 export default function Navbar () {
   const [{ userInfo }] = useStateProvider();
-  console.log({userInfo}, "from navbar")
   return <Container>
     <div className="search__bar">
       <FaSearch />

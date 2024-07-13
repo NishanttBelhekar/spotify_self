@@ -26,7 +26,6 @@ export default function Spotify() {
           userId: data.id,
           userName: data.display_name,
         };
-        console.log(userInfo);
 
         dispatch({ type: reducerCases.SET_USERS, userInfo });
       } catch (error) {
